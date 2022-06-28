@@ -30,6 +30,10 @@ app.get('/events/:id', (req, res) => {
 }
 })
 
+app.post('/events', (req, res) => {
+    res.send('Post request')
+})
+
 app.listen(8000,()=>{
     console.log('server is running on port 8000')
 })

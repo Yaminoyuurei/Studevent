@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "postman": "^0.2.0"
+  },
+  "name": "studevent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
